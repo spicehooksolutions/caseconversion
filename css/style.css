@@ -1,3 +1,108 @@
+header
+{ background: #282828;
+    padding: 10px 15px;
+    margin: 0;
+    text-align: center;
+
+}
+.headertop
+{
+    color:#fff; 
+    font-size: 40px;
+}
+
+
+.headerlogo
+{
+  max-width: 225px;
+  height: auto;
+}
+
+
+
+
+
+
+footer{
+    background: #282828;
+    padding: 30px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+.regaddress{
+    border-bottom:1px solid #fff;
+    margin:50px 0;
+    padding: 50px 0;
+    border-top:1px solid #fff;
+    font-size: 16px;
+    color:#fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.regaddress p span{
+    font-weight: 700;
+    color: rgb(223, 223, 233);
+    font-size: 26px;
+}
+.social a i{
+    font-size: 22px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.social a .fa-facebook:hover{
+    color: rgb(56, 23, 189);
+}
+.social a .fa-instagram:hover{
+    color: rgb(201, 26, 160);
+}
+.social a .fa-linkedin:hover{
+    color: rgb(14, 14, 202);
+}
+
+.footerbottom{
+    color:#fff;
+}
+.copyright{
+    text-align: left;
+}
+.allrights{
+    text-align: right;
+}
+.footer-menu{
+    padding: 0;
+    margin: 0;
+}
+.footer-menu ul{
+    padding: 0;
+    margin: 0;
+
+}
+.footer-menu ul li{
+    display: inline-block;
+    font-size:18px ;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    padding:0 10px;
+    list-style: none;
+
+}
+.footer-menu ul li a{
+    color:#fff;
+    float: left;
+}
+
+
+
+
+
+.footer-menu ul li:hover a{
+    text-decoration: none;
+    color: rgb(174, 255, 0);
+}
+
+
 @charset "utf-8";
 
 body {

@@ -22,7 +22,8 @@
 	<script src="js/voca.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" id="theme-styles" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+		id="theme-styles" />
 	<script src="js/Countable.js"></script>
 
 </head>
@@ -32,153 +33,305 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="ht-right">
-					
-					
+
+
 				</div>
 			</div>
 		</div>
-	</header>
-	<section class="content-section">
-		<div class="container">
-			<div class="inner-section">
-				<h2>Accidentally left the caps lock on and typed something, but can't be bothered to start again and
-					retype it all?</h2>
-				<p>Simply enter your text and choose the case you want to convert it to.</p>
-				<div class="ad">
-					<img src="images/350x150.png" alt="" />
-				</div>
-				<div class="place-content">
-					<form action="/" method="post" name="is_method">
-						<textarea id="content" placeholder="Type or paste your content here" autofocus=""></textarea>
-					</form>
-					<div class="actions">
-						<button id="sentence" class="btn circle-effect">Sentence case</button>
-						<button id="lower" class="btn circle-effect">lower case</button>
-						<button id="upper" class="btn circle-effect">UPPER CASE</button>
-						<button id="capitalized" class="btn circle-effect">Capitalized Case</button>
-						<!-- <button id="alternating" class="btn circle-effect">aLtErNaTiNg cAsE</button>  -->
-						<button id="title" class="btn circle-effect">Title Case</button>
-						<button id="inverse" class="btn circle-effect">InVeRsE CaSe</button>
-						<button id="download" class="btn circle-effect" data-download-target="#content"
-							style="display: inline-block;">Download Text</button>
-						<button id="copy" class="btn circle-effect" data-clipboard-target="#content">Copy to
-							Clipboard</button>
-						<button id="clear" class="btn circle-effect">Clear</button>
-						<div class="buy-me-coffee"><a href="javascript:void(0);" class="theme-btn circle-effect">Buy me
-								a Coffee</a></div>
+		<!doctype html>
+		<html lang="en">
+
+		<head>
+			<!-- Required meta tags -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<!-- Bootstrap CSS -->
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+				crossorigin="anonymous">
+
+			<title>Hello, world!</title>
+		</head>
+
+		<body>
+
+
+			<!-- Optional JavaScript -->
+			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+				crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+				integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+				crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+				integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+				crossorigin="anonymous"></script>
+		</body>
+
+		</html>
+		<!doctype html>
+		<header>
+			<div class="headertop">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 copyright"><img calss="headerlogo" src="https://spicehook.com/wp-content/uploads/2022/06/image-1-2-1.png" alt="Header Logo" /></div>
+						<div class="col-md-6 allrights"><b><u><i>Case Conversion Tool</i></u></b></div>
 					</div>
-					<div class="counts">Character Count: <span id="char_count">0</span> | Word Count: <span
-							id="word_count">0</span> | Sentence Count: <span id="line_count">0</span></div>
+	
 				</div>
-				<div class="ad">
-					<img src="images/350x150.png" alt="" />
+	
+			</div>
+
+
+
+
+		</header>
+
+</html>
+</header>
+<section class="content-section">
+	<div class="container">
+		<div class="inner-section">
+			<h2>Accidentally left the caps lock on and typed something, but can't be bothered to start again and
+				retype it all?</h2>
+			<p>Simply enter your text and choose the case you want to convert it to.</p>
+			<div class="ad">
+				<img src="images/350x150.png" alt="" />
+			</div>
+			<div class="place-content">
+				<form action="/" method="post" name="is_method">
+					<textarea id="content" placeholder="Type or paste your content here" autofocus=""></textarea>
+				</form>
+				<div class="actions">
+					<button id="sentence" class="btn circle-effect">Sentence case</button>
+					<button id="lower" class="btn circle-effect">lower case</button>
+					<button id="upper" class="btn circle-effect">UPPER CASE</button>
+					<button id="capitalized" class="btn circle-effect">Capitalized Case</button>
+					<!-- <button id="alternating" class="btn circle-effect">aLtErNaTiNg cAsE</button>  -->
+					<button id="title" class="btn circle-effect">Title Case</button>
+					<button id="inverse" class="btn circle-effect">InVeRsE CaSe</button>
+					<button id="download" class="btn circle-effect" data-download-target="#content"
+						style="display: inline-block;">Download Text</button>
+					<button id="copy" class="btn circle-effect" data-clipboard-target="#content">Copy to
+						Clipboard</button>
+					<button id="clear" class="btn circle-effect">Clear</button>
+					<div class="buy-me-coffee"><a href="javascript:void(0);" class="theme-btn circle-effect">Buy me
+							a Coffee</a></div>
+				</div>
+				<div class="counts">Character Count: <span id="char_count">0</span> | Word Count: <span
+						id="word_count">0</span> | Sentence Count: <span id="line_count">0</span></div>
+			</div>
+			<div class="ad">
+				<img src="images/350x150.png" alt="" />
+			</div>
+		</div>
+</section>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+	integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	crossorigin="anonymous"></script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>case conversion</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<!---- https://fontawesome.com/v5/search -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+		rel="stylesheet"> <!-- google font ---->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+
+
+	</header>
+	<section>
+
+	</section>
+	<footer>
+		<div class="container">
+			<figure><img src="https://spicehook.com/wp-content/uploads/2022/06/image-1-2-1.png" alt="Footer Logo" />
+			</figure>
+			<div class="footer-menu">
+				<ul>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="regaddress">
+			<div class="container">
+				<p><span>Registered Address:</span> 89B, Kabi Kirandhan Rd, Bhadrakali, Uttarpara, West Bengal 712232,
+					India</p>
+				<div class="social">
+					<a href="https://www.facebook.com/spicehooksolutions/" target="_blank"><i
+							class="fab fa-facebook"></i></a>
+					<a href="https://www.facebook.com/spicehooksolutions/" target="_blank"><i
+							class="fab fa-instagram"></i></a>
+					<a href="https://www.facebook.com/spicehooksolutions/" target="_blank"><i
+							class="fab fa-linkedin"></i></a>
 				</div>
 			</div>
-	</section>
-	<script>
-		jQuery(document).ready(function () {
+		</div>
+		<div class="footerbottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 copyright">Copyright © SpiceHook Solutions, 2021</div>
+					<div class="col-md-6 allrights">All Rights Reserved.</div>
+				</div>
 
-				jQuery('#content').on('keyup',function(){
-					const area = document.getElementById('content');
-					const counterdetails = counter =>{
-						 jQuery('.counts #char_count').html(counter.characters);
-						 jQuery('.counts #word_count').html(counter.words);
-						 jQuery('.counts #line_count').html(counter.sentences);
-					};
-					Countable.on(area, counterdetails, {
-					stripTags: true
-					});
-				});
-			
-			new ClipboardJS('#copy');
-			var clipboard = new ClipboardJS('#copy');
+			</div>
 
-			clipboard.on('success', function (e) {
-				Swal.fire({
+		</div>
+
+	</footer>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<script>
+	jQuery(document).ready(function () {
+
+		jQuery('#content').on('keyup', function () {
+			const area = document.getElementById('content');
+			const counterdetails = counter => {
+				jQuery('.counts #char_count').html(counter.characters);
+				jQuery('.counts #word_count').html(counter.words);
+				jQuery('.counts #line_count').html(counter.sentences);
+			};
+			Countable.on(area, counterdetails, {
+				stripTags: true
+			});
+		});
+
+		new ClipboardJS('#copy');
+		var clipboard = new ClipboardJS('#copy');
+
+		clipboard.on('success', function (e) {
+			Swal.fire({
 				title: 'Success',
 				text: 'Text copied to clipboard',
 				icon: 'success',
 				confirmButtonText: 'Cool'
-				})
-			});
+			})
+		});
 
-			$('#sentence').on('click', function () {
-				var x = document.getElementById("content").value;
-				var array_1 = x.split(". ");
+		$('#sentence').on('click', function () {
+			var x = document.getElementById("content").value;
+			var array_1 = x.split(". ");
 
-				for (let i = 0; i < array_1.length; i++) {
-					array_1[i] = array_1[i].charAt(0).toUpperCase() + array_1[i].slice(1).toLowerCase();
-					console.log(x[i]);
+			for (let i = 0; i < array_1.length; i++) {
+				array_1[i] = array_1[i].charAt(0).toUpperCase() + array_1[i].slice(1).toLowerCase();
+				console.log(x[i]);
+			}
+			var y = array_1.join(". ");
+			console.log(y);
+
+			document.getElementById("content").value = y;
+		});
+
+		$('#lower').on('click', function () {
+			var x = document.getElementById("content").value;
+			//console.log(v.upperCase(x));
+			document.getElementById("content").value = v.lowerCase(x);
+		});
+
+		$('#upper').on('click', function () {
+			var x = document.getElementById("content").value;
+			//console.log(v.upperCase(x));
+			document.getElementById("content").value = v.upperCase(x);
+		});
+
+		$('#capitalized').on('click', function () {
+			var x = document.getElementById("content").value;
+			var output = '';
+			for (let i = 0; i < x.length; i++) {
+				if (i == 0) {
+					output += x[i].toUpperCase();
 				}
-				var y = array_1.join(". ");
-				console.log(y);
-
-				document.getElementById("content").value = y;
-			});
-
-			$('#lower').on('click', function () {
-				var x = document.getElementById("content").value;
-				//console.log(v.upperCase(x));
-				document.getElementById("content").value = v.lowerCase(x);
-			});
-
-			$('#upper').on('click', function () {
-				var x = document.getElementById("content").value;
-				//console.log(v.upperCase(x));
-				document.getElementById("content").value = v.upperCase(x);
-			});
-
-			$('#capitalized').on('click', function () {
-				var x = document.getElementById("content").value;
-				var output = '';
-				for (let i = 0; i < x.length; i++) {
-					if (i == 0) {
-						output += x[i].toUpperCase();
-					}
-					else {
-						output += x[i].toLowerCase();
-					}
+				else {
+					output += x[i].toLowerCase();
 				}
-				document.getElementById('content').value = output;
+			}
+			document.getElementById('content').value = output;
+		});
+
+		$('#title').on('click', function () {
+			var x = document.getElementById("content").value;
+			//console.log(v.upperCase(x));
+			document.getElementById("content").value = v.titleCase(x);
+		});
+
+		$('#inverse').on('click', function () {
+			var x = document.getElementById("content").value;
+			//console.log(v.upperCase(x));
+			document.getElementById("content").value = v.swapCase(x);
+		});
+
+		$('#clear').on('click', function () {
+			var x = document.getElementById("content").value;
+			//console.log(v.upperCase(x));
+			document.getElementById("content").value = "";
+		});
+
+		$('#download').on('click', function () {
+
+			let data = document.querySelector('#content').value;
+			let file = 'data-' + Date.now() + '.txt';
+
+			let link = document.createElement('a');
+			link.download = file;
+			let blob = new Blob(['' + data + ''], {
+				type: 'text/plain'
 			});
-
-			$('#title').on('click', function () {
-				var x = document.getElementById("content").value;
-				//console.log(v.upperCase(x));
-				document.getElementById("content").value = v.titleCase(x);
-			});
-
-			$('#inverse').on('click', function () {
-				var x = document.getElementById("content").value;
-				//console.log(v.upperCase(x));
-				document.getElementById("content").value = v.swapCase(x);
-			});
-
-			$('#clear').on('click', function () {
-				var x = document.getElementById("content").value;
-				//console.log(v.upperCase(x));
-				document.getElementById("content").value = "";
-			});
-
-			$('#download').on('click', function () {
-
-				let data = document.querySelector('#content').value;
-				let file = 'data-' + Date.now() + '.txt';
-
-				let link = document.createElement('a');
-				link.download = file;
-				let blob = new Blob(['' + data + ''], {
-					type: 'text/plain'
-				});
-				link.href = URL.createObjectURL(blob);
-				link.click();
-				URL.revokeObjectURL(link.href);
-
-			});
-
+			link.href = URL.createObjectURL(blob);
+			link.click();
+			URL.revokeObjectURL(link.href);
 
 		});
-	</script>
+
+
+	});
+</script>
 </body>
 
 </html>
